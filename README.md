@@ -1,6 +1,8 @@
 ### Repository
 - https://github.com/phich82/mai_web
 
+git status
+
 ### Commit Steps On Repository
 - git add .
 
