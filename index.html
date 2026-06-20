@@ -11,19 +11,44 @@
         <title>Mai Travel</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <meta name="referrer" content="strict-origin-when-cross-origin" /> -->
-        <link rel="stylesheet" href="">
+
+        <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico">
+        <link rel="stylesheet" href="./style.css">
+
+        <style>
+            /* .tab {
+                border:1px red solid; 
+                text-align: center;
+                width: 20%;
+                background-color:purple;
+
+
+                
+            }
+            .link {
+                width: 100px;
+                color:mediumaquamarine;
+                text-decoration: none;
+            }
+
+            .link:hover {
+                color:pink;
+                text-decoration: underline;
+            } */
+        </style>
+
+    
     </head>
     <body>
-        <table style="width: 100%; height: 100%; border: 1px red; background-color: aquamarine;">
+        <table style="width: 100%; height: 100%; border: 1px red; ">
             <!-- LOGO -->
-            <tr style="border: 5px purple solid; height: 60px; background-color: blue;">
+            <tr style="border: 5px purple solid; height: 60px; ">
                 <td style="width: 15%;" rowspan="4">
                     left
                 </td>
                 <td style="width: 70%; border: 1px purple;">
 
-                    <table style="width: 100%; background-color: antiquewhite;">
+                    <table style="width: 100%;">
                         <tr>
                             <td>
                                 <a style="color: white;" href="./index.html">
@@ -45,26 +70,26 @@
             </tr>
 
             <!-- Tabs -->
-            <tr style="border: 5px green solid;background-color: blueviolet; height: 10px">
+            <tr style="border: 5px green solid; height: 10px">
                 
                 <td style="width: 70%;">
                     <table style="width: 100%;">
                         
                         <tr>
-                            <td style="border:1px red solid; text-align: center;width: 20%;">
-                                <a style="color: white;" href="./giave.html">Giá vé</a>
+                            <td class="tab">
+                                <a class="link" style="color: rgb(130, 173, 197);" href="./giave.html">Giá vé</a>
                             </td>
-                            <td style="border:1px red solid;text-align: center;width: 20%;">
-                                <a style="color: white;" href="./dulich.html">Du lịch</a>
+                            <td class="tab">
+                                <a class="link" style="color: rgb(130, 173, 197);" href="./dulich.html">Du lịch</a>
                             </td>
-                            <td style="border:1px red solid;text-align: center;width: 20%;">
-                                <a style="color: white;" href="./amthuc.html">Ẩm thực</a>
+                            <td class="tab">
+                                <a class="link" style="color: rgb(130, 173, 197);" href="./amthuc.html">Ẩm thực</a>
                             </td>
-                            <td style="border:1px red solid;text-align: center;width: 20%;">
-                                <a style="color: white;" href="./vanhoa.html">Văn hóa</a>
+                            <td class="tab">
+                                <a class="link" style="color: rgb(130, 173, 197);" href="./vanhoa.html">Văn hóa</a>
                             </td>
-                            <td style="border:1px red solid;text-align: center;width: 20%;">
-                                <a style="color: white;" href="./thiennhien.html">Giới thiệu</a>
+                            <td class="tab">
+                                <a class="link" style="color: rgb(130, 173, 197);" href="./thiennhien.html">Giới thiệu</a>
                             </td>
                         </tr>
                     </table>
@@ -73,7 +98,7 @@
             </tr>
 
             <!-- Main Content -->
-            <tr style="border: 5px orangered solid;background-color: yellow;">
+            <tr style="border: 5px orangered solid;">
                 
                 
                 <td>
@@ -108,12 +133,12 @@
                     </ul>  
                 
                     <div style="text-align: center;">
-                        <!-- <video width="720" height="405" controls autoplay muted>
+                        <video width="720" height="405" controls autoplay muted>
                             <source src="./assets/video/danang_intro_640.mp4" type="video/mp4">
                             Your browser does not support the video tag.
-                        </video> -->
+                        </video>
 
-                        <iframe 
+                        <!-- <iframe 
                             width="720" 
                             height="405" 
                             src="https://www.youtube.com/embed/PzC4_zNcSSM?autoplay=1&mute=1" 
@@ -122,14 +147,15 @@
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                             referrerpolicy="strict-origin-when-cross-origin" 
                             allowfullscreen
-                        ></iframe>
+                        ></iframe> -->
+                        
                     </div>
                 </td>
                 
             </tr>
     
             <!-- Bottom -->
-            <tr style="border: 5px rgb(100, 175, 100) solid;background-color: pink;">
+            <tr style="border: 5px rgb(100, 175, 100) solid;">
                 
                 <td>
                    Copyright by Mai <br />
