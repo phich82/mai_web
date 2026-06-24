@@ -17,3 +17,13 @@
     color:pink;
     text-decoration: underline;
 }
+
+.tab:hover {
+    background-color:blue;
+    color:white;
+}
+
+.tab.active {
+    background-color:blue;
+    color:white;
+}
