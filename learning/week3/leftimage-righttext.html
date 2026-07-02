@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image-container {
+            overflow: hidden;
+            background-color: #57f066;
+            padding: 5px;
+        }
+        .image-container img {
+            float: left;
+            width: 200px;
+            height: 200px;
+            padding: 10px;
+        }
+        .image-container .description {
+            /* float: right; */
+            padding: 10px;
+            height: 200px;
+            display: flex;
+        }
+
+        .image-container .align-center {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+        }
+
+        .image-container .text-justify {
+            text-align: justify;
+            text-justify: auto;
+            text-align: justify;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="../../assets/images/ba-na-hill.jpg"
+             alt="Sample Image" />
+        <div class="description">
+            <ul style="list-style-type: disc;
+                       background-color: #f0f0f0; 
+                       padding: 0 10px 10px 10px; margin: 0px;">
+                <li>Item 1 1111111111111111</li>
+                <li>Item 2 2222222222222222</li>
+                <li>Item 3 3333333333333333</li>
+            </ul>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="image-container">
+        <img src="../../assets/images/ba-na-hill.jpg"
+             alt="Sample Image" />
+        <div class="description">
+            <div class="text-justify align-center">
+                This is some sample text that will be displayed next to the image. This is some sample text that will be displayed next to the image. This is some sample text that will be displayed next to the image.
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="image-container">
+        <img src="../../assets/images/ba-na-hill.jpg"
+             alt="Sample Image" />
+        <div class="description">
+            <div class="text-justify align-center">
+                This is some sample text that will be displayed next to the image. This is some sample text that will be displayed next to the image. This is some sample text that will be displayed next to the image.
+            </div>
+        </div>
+    </div>
+</body>
+</html>

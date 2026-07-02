@@ -27,3 +27,47 @@
     background-color:blue;
     color:white;
 }
+
+.left-side {
+    width: 0%;
+}
+
+.right-side {
+    width: 15%;
+}
+
+.main-content {
+    width: 85%;
+}
+
+.image-container img{
+     float: left;
+        width: 330px;
+        height: 300px;
+        align-items: center;
+    
+}
+
+.description {
+
+    font-size: 20px;        
+    padding: 2px;
+    text-align: justify;
+    text-justify: auto;      
+       
+       
+}
+
+.image-container img .left {
+    float: left;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+
+.image-container img .right {
+    float: right;
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
