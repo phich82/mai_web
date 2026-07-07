@@ -40,34 +40,79 @@
     width: 85%;
 }
 
-.image-container img{
-     float: left;
-        width: 330px;
-        height: 300px;
-        align-items: center;
-    
+
+/********** Image Component **********/
+.image-container {
+    overflow: hidden;
+    padding: 5px;
+    width: 100%;
 }
 
-.description {
-
-    font-size: 20px;        
-    padding: 2px;
-    text-align: justify;
-    text-justify: auto;      
-       
-       
+.image-container .focus-image {
+    height: 200px;
 }
 
-.image-container img .left {
+.image-container .focus-image img {
+    width: 300px;
+}
+
+.image-container.left-image .focus-image {
     float: left;
-    width: 400px;
-    height: 300px;
-    align-items: center;
+    padding-right: 5px;
 }
 
-.image-container img .right {
+.image-container.right-image .focus-image {
     float: right;
-    width: 400px;
-    height: 300px;
-    align-items: center;
+    padding-left: 5px;
 }
+
+.image-container.center-image .focus-image {
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.image-container.left-image .description,
+.image-container.right-image .description {
+    height: 200px;
+}
+
+.image-container .description {
+    display: flex;
+}
+/********** End - Image Component **********/
+
+/********** Common styles **********/
+.middle {
+    align-content: center;
+}
+
+.center {
+    text-align: center;
+}
+
+.justify {
+    text-align: justify;
+}
+
+.card-border {
+    border: 1px solid black;
+}
+
+.bg-white {
+    /* background-color: #f0f0f0; */
+    background-color: transparent;
+}
+/********** End - Common styles **********/
+
+
+       
+
+
+
+ 
+
+
+
+
+
+
