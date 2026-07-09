@@ -79,9 +79,23 @@
 .image-container .description {
     display: flex;
 }
+
+/* Custom Focus Image (width and height) */
+.custom-focus-image,
+.custom-focus-image img {
+    height: 500px !important;
+}
+.custom-focus-image img {
+    width: 1000px !important;
+}
 /********** End - Image Component **********/
 
 /********** Common styles **********/
+.logo {
+    width: 50px !important;
+    height: 50px !important;
+}
+
 .middle {
     align-content: center;
 }
