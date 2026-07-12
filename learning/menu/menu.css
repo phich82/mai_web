@@ -4,24 +4,30 @@
     padding: 0;
 }
 
+/* canh chinh menu (trai, phai, giua)*/
 #menu {
-
+   display: flex;
+   justify-content: center; /* center, left, right */
 }
 
+/*an het kieu list cua cac item*/
 #menu ul {
     list-style: none;
 }
 
+/*keo cac item len cung mot hang*/
 #menu ul li {
     float: left;
 }
 
+/*an menu con cap 1*/
 #menu ul li ul {
     display: none;
     position: absolute; /* de menu con ko bi phu thuoc vao cac tab cha khac*/
     padding-top: 1px;
 }
 
+/*style cho tung tabs (items = the <li>)*/
 #menu ul li a {
     display: block;
     width: 100px;
@@ -38,20 +44,46 @@
     color: white;
 }
 
-/* Menu con hien thi (neu co) khi hover qua cac tab cha */
+/* Menu con cap 1 hien thi (neu co) khi hover qua cac tab cha */
 #menu ul li:hover ul {
     display: block;
+    position: absolute;
 }
 
+/*bo float left cac item va them duong ngan cach giua cac item*/
 #menu ul li ul li {
-    display: block;
     float: none;
     border-bottom: 1px solid black;
 }
 
+/*style cho cac the a cua tung item (the <li>)*/
 #menu ul li ul li a {
     display: block;
     width: 150px;
     text-align: left;
     padding-left: 30px;
+}
+
+/* an menu con cap 2 khi hover cac item cap 1 */
+#menu ul li:hover ul li ul {
+    display: none;
+    position: absolute;
+    left: 180px;
+    top: 31px;
+}
+
+/*an menu cap 3 khi hover cac item cap 1 */
+#menu ul li:hover ul li ul li ul {
+    display: none;
+    
+}
+
+/*hien thi menu cap 3 khi hover cac item cap 2*/
+#menu ul li ul li:hover ul {
+    display: block;
+}
+
+/*hien thi menu cap 4 khi hover cac item cap 3*/
+#menu ul li ul li ul li:hover ul {
+    display: block;
 }
