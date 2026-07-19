@@ -12,6 +12,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico">
+        <link rel="stylesheet" href="./menu.css">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
@@ -44,39 +45,79 @@
 
             <!-- Tabs -->
             <tr style="border: 5px green solid; height: 10px">
-                
-                <td style="width: 70%;">
-                    <table style="width: 100%;">
-                        
-                           <tr>
-                            <td class="tab">
-                                <a class="link" href="./giave.html">Giá vé</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./dulich.html">Du lịch</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./amthuc.html">Ẩm thực</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./vanhoa.html">Văn hóa</a>
-                            </td>
-                            <td class="tab active">
-                                <a class="link" href="./thiennhien.html">Giới thiệu</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
+               <td style="width: 85%;">
+                    <div id="menu" style="width: 100%;">
+                        <ul>
+                            <li>
+                                <a href="./giave.html">Giá vé</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Giá vé máy bay</a></li>
+                                    <li><a href="#">Giá vé tàu hỏa</a></li>
+                                    <li><a href="#">Giá vé xe khách</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./dulich.html">Du lịch</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Cầu rồng</a></li>
+                                    <li><a href="#">Bà Nà Hill</a></li>
+                                    <li><a href="#">Mỹ Khê</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./amthuc.html">Ẩm thực</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Mỳ Quảng</a></li>
+                                    <li><a href="#">Bún mắm nêm</a></li>
+                                    <li><a href="#">Bánh tráng cuốn thịt</a></li>
+                                    <li><a href="#">Bánh xèo</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="./vanhoa.html">Văn hóa</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Lễ hội đua thuyền</a></li>
+                                    <li><a href="#">Lễ hội pháo hoa DIFF</a></li>
+                                    <li><a href="#">Lễ hội cần Ngư</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="./thiennhien.html" class="tab-active">Giới thiệu</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Bề tác giả</a></li>
+                                    <li>
+                                        <a href="#">Câu chuyện của mình</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="#">Câu chuyện</a></li>
+                                            <li>
+                                                <a href="#">Khám phá web</a>
+                                                <ul class="sub-menu-3">
+                                                    <li><a href="#">Văn hóa</a></li>
+                                                    <li><a href="#">Âm thực</a></li>
+                                                    <li><a href="#">Giá vé</a></li>
+                                                    <li><a href="#">Du lịch</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Lời hứa</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </td> 
             </tr>
 
             <!-- Main Content -->
             <tr style="border: 5px orangered solid;">
                 
                 <td>
-                    <h1 style="font-size: 50px;">About the creator</h1>
+                    <h1 style="font-size: 50px;">Về tác giả</h1>
                     <p style="font-size: 20px;">Chào mọi người, mình là Tuyết Mai học lớp 9 từ Vietnam (tên tắt của mình là Snowy)-Người đứng sau góc nhỏ của trang web toptravel."Điểm đến của bạn không phải là một vùng đất, mà là một cách nhìn mới."Nếu bạn là một người mê xê dịch, thích ngắm nhìn những cảnh đẹp và luôn tò mò về những vùng đất mới, thì chúng ta cùng chung sở thích rồi đó!</p>
-                    <h2 style="font-size: 40px;">My story behind the website</h2>
+                    <h2 style="font-size: 40px;">Câu chuyện của mình đằng sau toptravel</h2>
                     <p style="font-size: 20px;">Mình lập ra website này xuất phát từ niềm đam mê lớn với du lịch. Là một người trẻ, mình nhận ra thế giới ngoài kia có quá nhiều điều kỳ thú mà sách vở chưa thể kể hết.Vì mình vẫn đang trên hành trình học hỏi, nên toptravel giống như một cuốn nhật ký trực tuyến. Đây là nơi mình lưu giữ kỷ niệm, thực hành kỹ năng làm web, và tổng hợp những điều hay ho mình tìm tòi được để chia sẻ với mọi người.(mình có sử dụng AI để hỗ trợ viết nội dung, nhưng mình luôn cố gắng đảm bảo rằng những thông tin mình chia sẻ hữu ích nhất có thể).</p>
                     <h2>Khám phá Toptravel có gì nhé</h2>
                     <ul>
@@ -85,7 +126,7 @@
                         <li style="font-size:23px;">🎫 Giá vé phương tiện: Trang tổng hợp và cập nhật mức giá vé của các loại phương tiện di chuyển như tàu hỏa, xe khách, xe buýt... giúp bạn dễ dàng tính toán chi phí đi lại cho chuyến đi.</li>
                         <li style="font-size:23px;">🚀 Du lịch: Tổng hợp những tọa độ check-in siêu hot, hướng dẫn đường đi chi tiết và gợi ý lịch trình vi vu tối ưu nhất do mình tự tay gom góp.</li>
                     </ul>
-                    <h2 style="font-size: 40px;">Lời hứa của creator</h2> 
+                    <h2 style="font-size: 40px;">Lời hứa của tác giả</h2> 
                     <p style="font-size: 20px;">Vì thông tin du lịch luôn thay đổi theo thời gian và trải nghiệm cá nhân của mình còn hạn chế, các bài viết trên web được mình tham khảo và tổng hợp kỹ lưỡng từ nhiều nguồn uy tín. Mình luôn cố gắng mang đến những nội dung:</p> 
                     <ul>
                         <li style="font-size:23px;">🎯 Tập trung vào tiêu chí trải nghiệm, tiết kiệm và an toàn.</li>

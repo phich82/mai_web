@@ -35,6 +35,7 @@
     height: 30px;
     line-height: 30px;
     background-color: purple;
+    border:1px red solid; 
     color: white;
     text-align: center;
     text-decoration: none;
@@ -91,4 +92,9 @@
 /*hien thi menu cap 4 khi hover cac item cap 3*/
 #menu ul li ul li ul li:hover ul {
     display: block;
+}
+/*hightlight trang đang vào*/
+.tab-active {
+    background-color:blue !important;
+    color:white !important;
 }

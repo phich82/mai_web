@@ -12,6 +12,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.ico">
+        <link rel="stylesheet" href="./menu.css">
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
@@ -44,30 +45,70 @@
 
             <!-- Tabs -->
             <tr style="border: 5px green solid; height: 10px">
-                
-                <td style="width: 70%;">
-                    <table style="width: 100%;">
-                        
-                           <tr>
-                            <td class="tab">
-                                <a class="link" href="./giave.html">Giá vé</a>
-                            </td>
-                            <td class="tab active">
-                                <a class="link" href="./dulich.html">Du lịch</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./amthuc.html">Ẩm thực</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./vanhoa.html">Văn hóa</a>
-                            </td>
-                            <td class="tab">
-                                <a class="link" href="./thiennhien.html">Giới thiệu</a>
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-                
+                <td style="width: 85%;">
+                    <div id="menu" style="width: 100%;">
+                        <ul>
+                            <li>
+                                <a href="./giave.html">Giá vé</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Giá vé máy bay</a></li>
+                                    <li><a href="#">Giá vé tàu hỏa</a></li>
+                                    <li><a href="#">Giá vé xe khách</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./dulich.html" class="tab-active">Du lịch</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Cầu rồng</a></li>
+                                    <li><a href="#">Bà Nà Hill</a></li>
+                                    <li><a href="#">Mỹ Khê</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./amthuc.html">Ẩm thực</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Mỳ Quảng</a></li>
+                                    <li><a href="#">Bún mắm nêm</a></li>
+                                    <li><a href="#">Bánh tráng cuốn thịt</a></li>
+                                    <li><a href="#">Bánh xèo</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="./vanhoa.html">Văn hóa</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Lễ hội đua thuyền</a></li>
+                                    <li><a href="#">Lễ hội pháo hoa DIFF</a></li>
+                                    <li><a href="#">Lễ hội cần Ngư</a></li>
+                                </ul>
+                            </li>
+
+                            <li>
+                                <a href="./thiennhien.html">Giới thiệu</a>
+                                <ul class="sub-menu-1">
+                                    <li><a href="#">Về tác giả</a></li>
+                                    <li>
+                                        <a href="#">Câu chuyện của mình</a>
+                                        <ul class="sub-menu-2">
+                                            <li><a href="#">Câu chuyện</a></li>
+                                            <li>
+                                                <a href="#">Khám phá web</a>
+                                                <ul class="sub-menu-3">
+                                                    <li><a href="#">Văn hóa</a></li>
+                                                    <li><a href="#">Âm thực</a></li>
+                                                    <li><a href="#">Giá vé</a></li>
+                                                    <li><a href="#">Du lịch</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Lời hứa</a></li>
+                                    <li><a href="#">Contact</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </td> 
             </tr>
 
             <!-- Main Content -->

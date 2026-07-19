@@ -23,10 +23,7 @@
     color:white;
 }
 
-.tab.active {
-    background-color:blue;
-    color:white;
-}
+
 
 .left-side {
     width: 1%;
@@ -78,6 +75,7 @@
 
 .image-container .description {
     display: flex;
+    font-size:20px;
 }
 
 /* Custom Focus Image (width and height) */
